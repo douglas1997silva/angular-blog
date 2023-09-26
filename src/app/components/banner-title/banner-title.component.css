@@ -1,0 +1,15 @@
+.menu_title-container{
+  color: #FFFFFF ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 620px;
+
+
+
+}
+.menu_title-container > h1 {
+    margin-bottom: 10px;
+    font-size: 50px;
+
+}

@@ -1,0 +1,21 @@
+.container__smal-card{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 15px;
+
+}
+.smal-card_title{
+ grid-column: 2/3;
+ margin: 0 25px 0 15px;
+}
+.smal-card_title > p {
+  font-size: 15px;
+}
+
+.smal-card_photo > img{
+ width: 250px;
+ min-width: 150px;
+
+
+}
