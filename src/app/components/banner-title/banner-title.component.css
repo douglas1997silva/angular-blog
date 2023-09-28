@@ -4,12 +4,18 @@
   flex-direction: column;
   align-items: center;
   height: 620px;
-
-
+  background-size: cover;
 
 }
 .menu_title-container > h1 {
     margin-bottom: 10px;
     font-size: 50px;
+    background: none;
+    color: black;
 
+
+}
+.menu_title-container > p {
+  background: none;
+  color: black;
 }
