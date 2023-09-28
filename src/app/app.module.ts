@@ -7,9 +7,10 @@ import { MenuNavComponent } from './components/menu-nav/menu-nav.component';
 import { BannerTitleComponent } from './components/banner-title/banner-title.component';
 import { LargeCardComponent } from './components/large-card/large-card.component';
 import { SmallCardComponent } from './components/small-card/small-card.component';
-import { FooterInfComponent } from './components/footer-inf/footer-inf.component';
+
 import { HomeComponent } from './pages/hpages/home/home.component';
 import { ContentComponent } from './pages/content/content.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -18,9 +19,10 @@ import { ContentComponent } from './pages/content/content.component';
     BannerTitleComponent,
     LargeCardComponent,
     SmallCardComponent,
-    FooterInfComponent,
+
     HomeComponent,
-    ContentComponent
+    ContentComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

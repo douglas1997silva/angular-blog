@@ -5,13 +5,16 @@
   align-items: center;
   height: 620px;
   background-size: cover;
+  justify-content: center;
 
 }
 .menu_title-container > h1 {
     margin-bottom: 10px;
     font-size: 50px;
     background: none;
-    color: black;
+    color: #618264;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #000;
 
 
 }

@@ -1,8 +1,24 @@
-@media screen and (min-width:750px){
+@media screen and (width:750px){
+  .menu_title-container{
+    background-size: 100%;
+    height: 320px;
+  }
+
+
   .menu_title-container > h1 {
     margin-bottom: 10px;
-    font-size: 30px;
-    background-size: 500px;
+    font-size: 50px;
+    color: #618264;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #000;
+
 }
 
+
+}
+@media screen and (width:350px){
+  .menu_title-container{
+    background-size: 1000px;
+    height: 320px;
+  }
 }
