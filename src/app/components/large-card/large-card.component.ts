@@ -13,6 +13,8 @@ export class LargeCardComponent implements OnInit {
   cardTitles:string = "Luffy";
   @Input()
   cardDescription:string = "Luffy é o capitão dos Piratas do Chapéu de Palha. Quando criança, ele comeu uma Gomu Gomu no Mi, uma fruta que lhe deu o poder do homem-borracha em troca de sua habilidade de nadar. Filho de Monkey D. Dragon, o jovem sonha em se tornar o Rei dos Piratas, título que ninguém ocupa desde a execução de Gol D."
+  @Input()
+  id:string ="0"
   constructor() { }
 
   ngOnInit(): void {

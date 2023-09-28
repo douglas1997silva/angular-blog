@@ -12,6 +12,8 @@ export class SmallCardComponent implements OnInit {
   cardsmallD:string = "Roronoa Zoro, Caçador de Piratas, mestre espadachim, um dos 11 piratas que integram a chamada Pior Geração, grande amigo de Luffy, responsável por algumas das melhores cenas de ação de One Piece e, com certeza, por algumas dos melhores momentos cômicos. Ao longo das 20 temporadas do anime, Zoro ganhou o coração dos fãs dos Piratas do Chapéu de Palha.";
   @Input()
   cardSmallT:string = "Zoro";
+  @Input()
+  id:string ="0"
   constructor() { }
 
   ngOnInit(): void {
