@@ -13,6 +13,10 @@ export class ContentComponent implements OnInit {
   contentTitles: string = ''
   @Input()
   contentDes:string =''
+  @Input()
+  contentDes2:string = ""
+  @Input()
+  funcao:string =""
   private id:string | null='0'
 
   constructor(
@@ -32,6 +36,8 @@ export class ContentComponent implements OnInit {
    this.contentTitles = result.title
    this.contentDes = result.description
    this.photoCover = result.photo
+   this.contentDes2 = result.fruta
+   this.funcao = result.função
   }
 
 }
