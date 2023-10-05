@@ -1,24 +1,18 @@
 .menu_title-container{
   color: #FFFFFF ;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 620px;
+
+  flex-direction: row;
+  justify-content: flex-start;
   background-size: cover;
-  justify-content: center;
+  height: 650px;
+  margin: 25px 0 25px;
+  width: 100%
 
 }
-.menu_title-container > h1 {
-    margin-bottom: 10px;
-    font-size: 50px;
-    background: none;
-    color: #618264;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: #000;
 
+.menu_title-container >h1 {
+  width: 150px;
+  height: auto;
+}
 
-}
-.menu_title-container > p {
-  background: none;
-  color: black;
-}

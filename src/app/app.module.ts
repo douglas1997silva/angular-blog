@@ -11,6 +11,12 @@ import { SmallCardComponent } from './components/small-card/small-card.component
 import { HomeComponent } from './pages/hpages/home/home.component';
 import { ContentComponent } from './pages/content/content.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { PersonagemComponent } from './pages/personagem/personagem.component';
+import { RotaperComponent } from './pages/rotaper/rotaper.component';
+
+import {HttpClientModule} from '@angular/common/http'
+
+
 
 @NgModule({
   declarations: [
@@ -22,11 +28,16 @@ import { FooterComponent } from './components/footer/footer.component';
 
     HomeComponent,
     ContentComponent,
-    FooterComponent
+    FooterComponent,
+    PersonagemComponent,
+    RotaperComponent,
+
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]

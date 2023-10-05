@@ -3,16 +3,21 @@
   display: flex;
   flex-direction: row;
   margin-bottom: 15px;
+  transition: 500ms linear;
+
 
 }
 .smal-card_title {
  margin-left: 10px;
-
+ height: 200px
 
 }
+
+
 .smal-card_title > p >a {
   font-size: 15px;
   color : gray;
+  margin-left: 12px;
 }
 
 .smal-card_photo > img{
@@ -22,3 +27,11 @@
 
 
 }
+.container__smal-card:hover{
+
+  width: 100%;
+  height: 200px;
+  margin: 20px auto;
+  transition: 500ms  linear;
+}
+

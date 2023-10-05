@@ -1,5 +1,7 @@
 import { Component, Input, OnInit } from '@angular/core';
 
+
+
 @Component({
   selector: 'app-small-card',
   templateUrl: './small-card.component.html',
@@ -13,10 +15,11 @@ export class SmallCardComponent implements OnInit {
   @Input()
   cardSmallT:string = "Zoro";
   @Input()
-  id:string ="0"
+  id:string|null ="0"
   constructor() { }
 
   ngOnInit(): void {
+
   }
 
 }
