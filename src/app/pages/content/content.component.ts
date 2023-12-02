@@ -17,7 +17,10 @@ export class ContentComponent implements OnInit {
   contentDes2:string = ""
   @Input()
   funcao:string =""
+  @Input()
+  histo:string =""
   private id:string | null='0'
+
 
   constructor(
     private route : ActivatedRoute
@@ -28,6 +31,7 @@ export class ContentComponent implements OnInit {
       this.id =(value.get('id'))
     )
     this.setValueToComponents(this.id)
+
   }
 
   setValueToComponents(id:string|null){
@@ -38,6 +42,7 @@ export class ContentComponent implements OnInit {
    this.photoCover = result.photo
    this.contentDes2 = result.fruta
    this.funcao = result.função
+   this.histo = result.historia || ""
   }
 
 }

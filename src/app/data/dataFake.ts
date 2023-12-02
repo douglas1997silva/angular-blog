@@ -5,7 +5,8 @@ export const dataFake = [
   "title":"Luffy",
   "description":"O melhor Pirata em atividade",
   "fruta": "Akuma no Mi: Gomu Gomu no Mi (Fruta da Borracha)",
-  "função": "Função no grupo: capitão"
+  "função": "Função no grupo: capitão",
+  "historia": "Luffy é o protagonista de One Piece e personagem mais importante da história. Detentor da fruta da borracha, o personagem está sempre em alto astral e pronto para defender não só os amigos dele, mas também pessoas oprimidas do mal."
 
 
 },
@@ -13,9 +14,10 @@ export const dataFake = [
   'id': '2',
   "photo":"https://images4.alphacoders.com/132/thumbbig-1327091.webp",
   "title":"Zoro",
-  "description":"Gol D. Roger",
   "fruta": "Akuma no Mi: não possui",
-  "função": "Função no grupo: espadachim"
+  "description":"",
+  "função": "Função no grupo: espadachim",
+  "historia": "Zoro é o imediato de Luffy e primeiro aliado que ele trouxe para o bando pirata dele logo no começo da história. Zoro tem como objetivo tornar-se o maior espadachim do mundo e para isso ele treina diariamente"
 
 
 },
@@ -23,9 +25,10 @@ export const dataFake = [
   'id': '3',
   "photo":"https://images3.alphacoders.com/737/thumb-1920-737886.png",
   "title":" Usopp",
-   "description":"Gol D. Roger",
+  "description":"",
    "fruta": "Akuma no Mi: não possui",
-   "função": "Função no grupo: atirador"
+   "função": "Função no grupo: atirador",
+   "historia": "Usopp é o artilheiro dos Chapéu de Palha. Covarde, chorão e mentiroso, ele é o alívio cômico do grupo, e geralmente apanha pra caramba durante os arcos do anime."
 
   }
 ,
@@ -34,9 +37,10 @@ export const dataFake = [
   'id': '4',
    "photo":"https://images4.alphacoders.com/132/thumbbig-1327092.webp",
    "title":"Nami",
-   "description":"Gol D. Roger",
+   "description":"",
    "fruta": "Akuma no Mi: não possui",
-   "função": "Função no grupo: cartógrafa e tesoureira"
+   "função": "Função no grupo: cartógrafa e tesoureira",
+   "historia": "Nami é a navegadora dos Chapéu de Palha, e o que Zoro tem de perdido, ela tem de senso de direção. A personagem ama dinheiro e administra as finanças dos Chapéu de Palha.Além disso, ela também conta com o Clima Tact para se defender, um bastão meteorológico que usa vento, eletricidade e outros fenômenos para atacar e defender-se."
 
   }
    ,
